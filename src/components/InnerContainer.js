@@ -58,7 +58,7 @@ function InnerContainer() {
 
     return (
         <div className="innercontainer">
-            {showLoader && <SavingCounterContainer></SavingCounterContainer>}
+          <SavingCounterContainer showLoader={showLoader}></SavingCounterContainer>
             <CounterButtonContainer val={val} onUpdate={(_val) => onUpdateVal(_val)}></CounterButtonContainer>
             <CounterDisplay val={val}></CounterDisplay>
         </div>

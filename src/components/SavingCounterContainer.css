@@ -2,14 +2,20 @@
 
 .loading-saving-container {
   width: 179px;
-  height: 37px;
+  min-height: 37px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding-left: 2.5px;
-  margin-bottom: 10px;
 }
 
+.loader-contain-check {
+  width: 179px;
+  height: 37px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 .text {
   margin-left: 10px;
   font-family: Nunito;
