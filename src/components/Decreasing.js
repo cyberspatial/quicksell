@@ -1,14 +1,11 @@
+import React from 'react';
 import './Decreasing.css'
 import './Input'
 
-function Decreasing(props) {
+function Decreasing({onClickHandler}) {
 
-    const clickhandler = () => {
-        document.getElementsByClassName('count')[0].value -= 1;
-        console.log('clicked');
-    }
     return (
-        <button onClick={clickhandler} className="decrease">-</button>
+        <button onClick={onClickHandler} className="decrease">-</button>
     );
 }
 
