@@ -1,0 +1,9 @@
+.innercontainer {
+  width: 181px;
+  height: 108px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+}

@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:700");
+.counter_text_display {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 37px;
+  margin-top: 10px;
+}
+.countervalue {
+  margin-left: 3.5px;
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 700;
+  user-select: none;
+}
+.updatedvalue {
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 700;
+  user-select: none;
+}

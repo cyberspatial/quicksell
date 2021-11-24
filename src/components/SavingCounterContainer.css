@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap");
+
+.loading-saving-container {
+  width: 179px;
+  height: 37px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 2.5px;
+  margin-bottom: 10px;
+}
+
+.text {
+  margin-left: 10px;
+  font-family: Nunito;
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 9.5px;
+  user-select: none;
+}

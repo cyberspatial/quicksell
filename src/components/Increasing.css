@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+.increase {
+  width: 60px;
+  height: 56px;
+  border: 1px solid #b24242;
+  border-left: none;
+  font-size: 21px;
+  background-color: #b24242;
+  color: white;
+  font-family: Nunito;
+  font-weight: 700;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+}
